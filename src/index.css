@@ -1,0 +1,68 @@
+/* 🧭 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #0072ff, #00c6ff);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  background: white;
+  color: #0072ff;
+  font-weight: bold;
+}
+
+/* 🌙 DARK MODE */
+.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+/* Dark Cards */
+.dark .card {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Dark Form */
+.dark .form {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Dark Inputs */
+.dark input {
+  background: #2c2c2c;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Dark Dashboard */
+.dark .dashboard {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Dark Slots */
+.dark .slots button {
+  background: #333;
+  color: white;
+}
+
+/* Buttons */
+.confirm-btn {
+  background: #2ecc71;
+  color: white;
+  margin-top: 10px;
+}
+
+.cancel-btn {
+  background: #e74c3c;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
